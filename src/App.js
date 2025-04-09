@@ -5,7 +5,12 @@ import Comment from "./Comment";
 function App() {
   return (
     <div>
-      <Article />
+      <Article>
+        <div id="About"></div>
+        <h2>About</h2>
+      </Article>
+      <Navbar />
+      <Home />
       <Comment />
     </div>
   );
